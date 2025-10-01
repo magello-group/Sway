@@ -7,9 +7,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Dto\" />
-    <Folder Include="Enums\" />
-  </ItemGroup>
-
 </Project>
