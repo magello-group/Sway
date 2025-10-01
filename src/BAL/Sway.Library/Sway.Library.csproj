@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Csla" Version="5.5.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DAL\Sway.Dal\Sway.Dal.csproj" />
+  </ItemGroup>
+
 </Project>
