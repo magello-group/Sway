@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\BAL\Sway.Library\Sway.Library.csproj" />
+    <ProjectReference Include="..\..\DAL\Sway.DalMock\Sway.DalMock.csproj" />
+    <ProjectReference Include="..\..\DAL\Sway.Dal\Sway.Dal.csproj" />
+    <ProjectReference Include="..\..\Sway.Core\Sway.Core.csproj" />
+  </ItemGroup>
+
 </Project>
