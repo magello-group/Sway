@@ -1,5 +1,4 @@
-﻿using Fusion.UI.Common.Enums;
-using Prism.Ioc;
+﻿using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Regions;
 using Sway.UI.Prism.Modules.LeftMenuBar.Views;

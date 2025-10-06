@@ -1,6 +1,7 @@
 ﻿using Prism.Ioc;
 using Prism.Modularity;
 using Prism.Unity;
+using Sway.UI.Prism.Modules.LeftMenuBar;
 using Sway.UI.Prism.Shell.Views;
 using System.Windows;
 
@@ -25,6 +26,8 @@ namespace Sway.UI.Prism.Shell
 		protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
 		{
 			base.ConfigureModuleCatalog(moduleCatalog);
+
+			moduleCatalog.AddModule<LeftMenuBarModule>();
 		}
 	}
 }

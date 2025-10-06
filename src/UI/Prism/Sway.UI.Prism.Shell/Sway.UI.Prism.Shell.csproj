@@ -11,5 +11,6 @@
     <ProjectReference Include="..\..\..\BAL\Sway.Library\Sway.Library.csproj" />
     <ProjectReference Include="..\..\..\DAL\Sway.DalMock\Sway.DalMock.csproj" />
     <ProjectReference Include="..\..\..\DAL\Sway.Dal\Sway.Dal.csproj" />
+    <ProjectReference Include="..\Modules\Sway.UI.Prism.Modules.LeftMenuBar\Sway.UI.Prism.Modules.LeftMenuBar.csproj" />
   </ItemGroup>
 </Project>

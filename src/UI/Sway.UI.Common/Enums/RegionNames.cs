@@ -1,4 +1,4 @@
-﻿namespace Fusion.UI.Common.Enums
+﻿namespace Sway.UI.Common.Enums
 {
 	public enum RegionNames
 	{
