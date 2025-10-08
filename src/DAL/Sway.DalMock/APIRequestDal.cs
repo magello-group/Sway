@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Sway.DalMock
 {
@@ -59,8 +60,16 @@ namespace Sway.DalMock
 							MediaType = r.MediaType
 						}).FirstOrDefault();
 
+			CheckAPIKeyValidity(data?.APIKey!);
+
 			return data
 				?? throw new InvalidOperationException($"APIKey with model '{model}' not found.");
+		}
+
+		private void CheckAPIKeyValidity(string apiKey)
+		{
+			if (string.IsNullOrWhiteSpace(apiKey))
+				throw new InvalidOperationException("Missing OPPER_API_KEY environment variable.");
 		}
 	}
 }
